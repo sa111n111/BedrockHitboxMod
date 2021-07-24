@@ -6,7 +6,6 @@ int main() {
     uintptr_t gameId = l->getGameModule(process_id);
     HANDLE procHandle = OpenProcess(PROCESS_ALL_ACCESS, NULL, process_id);
     float hitboxWidthVal;
-    float hitboxHeightVal;
     std::string prompt;
     bool to_exit = false;
 
